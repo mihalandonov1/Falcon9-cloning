@@ -1,0 +1,477 @@
+@font-face{
+    font-family: D-DIN;
+    src: url("../fonts/D-DIN.woff2");
+}
+
+@font-face{
+    font-family: D-DIN-Bold;
+    src: url("../fonts/D-DIN-Bold.woff2");
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+/* this is header css */
+
+header {
+    font-family: D-DIN;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: transparent;
+    height: 100px;
+    font-style: normal;
+    display: block;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+}
+
+nav {
+    color: white;
+    display: inline;
+    position: relative;
+    width: 1000px;
+    height: 100%;
+}
+
+
+#logo {
+    width: 210px;
+    height: 36px;
+    float: left;
+    padding-top: 28px;
+    padding-left: 50px;   
+}
+
+#menu {
+    display: inline-block;
+    width: 80%;
+    padding-top: 40px;
+}
+
+#menu :last-child {
+    float: right;
+    padding-top: 3px;
+    padding-right: 40px;
+}
+
+#menu #shop {
+    margin-left: 300px;
+}
+
+#menu a:hover {
+    border-bottom: solid 1px white;
+}
+#menu a {
+    color: white;
+    margin-left: 27px;
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+/* fist section with launching rocket background css */
+
+#firstSectionRocketLaunch img {
+    width: 96%;
+    margin-top: -30px;
+    height: 552px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+#firstSectionRocketLaunch {
+    text-align: center;
+    background-color: black;
+    display: flex;
+}
+
+#firstSectionRocketLaunch #text1 {
+    color: white;
+    font-family: D-DIN-Bold;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 150px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#firstSectionRocketLaunch #text2 {
+    color: white;
+    font-family: D-DIN;
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 280px;
+    font-size: 20px;
+}
+
+/* SECOND SECTION WITH NUMBERS OF LAUNCH CSS */
+
+.falconLaunchNumbers {
+    background-color: black;
+        
+}
+
+#falconStats_content {
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-left: 30px;
+    padding-top: 60px;
+    height: 322px;
+    padding-right: 10px;
+}   
+
+.fstats1 {
+    width: 30%;
+    display: inline-block;
+    font-family: D-DIN;
+    width: 300px;
+    height: 322px;
+    color: white;
+}
+
+.fstats1 :first-child {
+    font-size: 150px;
+}
+
+.fstats1 :last-child {
+    font-size: 25px;
+    display: block;
+    width: 300px;
+}
+
+.fstats2 {
+    width: 30%;
+    display: inline-block;
+    font-family: D-DIN;
+    width: 300px;
+    height: 322px;
+    text-align: center;
+}
+
+.fstats2 :first-child {
+    font-size: 150px;
+}
+
+.fstats2 :last-child {
+    font-size: 25px;
+    display: block;
+    width: 300px;
+}
+
+.fstats3 {
+    width: 30%;
+    display: inline-block;
+    font-family: D-DIN;
+    width: 300px;
+    height: 322px;
+    text-align: center;
+}
+
+.fstats3 :first-child {
+    font-size: 150px;
+}
+
+.fstats3 :last-child {
+    font-size: 25px;
+    display: inline-block;
+    width: 300px;
+}
+
+/* 3th section rocket information */
+
+#falcon9InfoBox {
+    text-align: left;
+    background-color: black;
+    display: flex;
+}
+
+#falcon9InfoBox #infoText {
+    color: white;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-family: D-DIN;
+    font-size: 20px;
+    width: 520px;
+    height: 228px;
+    line-height: 2;
+}
+
+/* the css of FALCON 9 info */
+
+#tableWrapFalcon9 {
+    background-image: url("../images/falcon9white.png");
+    height: 516px;
+}
+
+
+#tableHead {
+    font-family: D-DIN;
+    font-size: 24px;
+    margin-bottom: 30px;
+    position: absolute;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#tableHead2 {
+    font-family: D-DIN-Bold;
+    font-size: 46px;
+    padding-top: 40px;
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+td {
+    border-bottom: solid 1px;
+    border-color: gray;
+    color: white;
+    font-family: D-DIN-Bold;
+    font-size: 14px;
+    height: 60px;
+}
+
+.col1 {
+    width: 320px;
+    text-align: left;
+}
+
+.col2 {
+    text-align: right;
+}
+
+.col2 span {
+    color: gray;
+}
+
+/* section Engine Info Stats */
+
+#tableWrapFalcon9EngineInfo {
+    background-image: url("../images/merlin1.jpg");
+    height: 560px;
+}
+
+#tableWrapFalcon9EngineInfoVacuum {
+    background-image: url("../images/vacuum_engine.jpg");
+    height: 560px;
+}
+
+
+#tableHeadInfo {
+    font-family: D-DIN;
+    font-size: 24px;
+    margin-bottom: 30px;
+    position: absolute;
+    color: white;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+#tableHead2Info {
+    font-family: D-DIN-Bold;
+    font-size: 46px;
+    padding-top: 35px;
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+}
+
+
+#tableInfoEngineInformation{
+    line-height: 2;
+    font-family: D-DIN;
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+
+#tableEngineInfo {
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 520px;
+}
+
+td {
+    border-bottom: solid 1px;
+    border-color: gray;
+    color: white;
+    font-family: D-DIN-Bold;
+    font-size: 14px;
+    height: 60px;
+}
+
+.col1Info {
+    width: 320px;
+    text-align: left;
+}
+
+.col2Info {
+    text-align: right;
+    font-size: 18px;
+}
+
+.col2Info :last-child {
+    color: grey;
+}
+
+
+.tableHeadInfo2 {
+    padding-bottom: 20px;
+    font-size: 18px;
+    margin-right: 10px;
+    
+}
+
+.tableHeadInfo2 :nth-child(2n) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tableHeadInfo2vacuum :first-child {
+    
+    text-decoration: none;
+  
+}
+
+#tableHeadInfo2sealevel :last-child {
+    
+    text-decoration: none;
+   
+}
+
+.tableHeadInfo2 a:visited {
+    color: gray;
+}
+
+#sealevelspan {
+    border-bottom: solid;
+}
+
+#vacuumSpan {
+    border-bottom: solid;
+}
+
+/* ------------- footer -------------*/
+
+/* -------- the css of the footer -------- */
+
+.contentCenter{
+    margin: 0;
+    background-color: black;
+}
+
+.firstRow {
+    margin: 0px;
+}
+
+.firstRow :first-child {
+    background-color: black;
+    width: 50%;
+    height: 150px;
+}
+
+.firstRow :last-child {
+    background-color: black;
+    width: 50%;
+    height: 150px;
+    border-left: solid 1px white;
+    margin-top: 80px;
+}
+
+.firstRow {
+    display: flex;
+    width: 100%;
+    height: 280px;
+    background-color: black;
+}
+
+.contentCenter p {
+    color: gray;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+.contentCenter span {
+    color: white;
+    text-align: center;
+
+}
+
+#userGuide {
+    width: 100%;
+    height: 200px;
+    display: flex;
+   margin: 0;
+    margin-top: 40px;
+    background-color: black;
+}
+
+#userGuide :first-child {
+    width: 190px;
+    height: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-family: D-DIN-Bold;
+    margin-left: 440px;
+    border: solid white 2px;
+    background-color: black;
+}
+
+#userGuide :first-child:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#userGuide :last-child {
+    width: 190px;
+    height: 50px;
+    background-color: black;
+    margin-left: 80px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-family: D-DIN-Bold;
+    border: solid 2px white;
+    cursor: pointer;
+}
+
+#userGuide :last-child:hover {
+    color: black;
+    background-color: white;
+}
+
+#footer span {
+    text-align: center;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-family: D-DIN-Bold;
+    cursor: pointer;
+}
+
+#footer :first-child {
+    color: grey;
+    font-family: D-DIN;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* ----- end of footer ----------*/
